@@ -43,6 +43,7 @@ public class Juego_colgado {
 			//We create an integer array which will serve as our player lives
 			int[] playerLives = new int[numOfPlayers];
 			
+			
 		//This is for determining how many rounds will be played
 		System.out.println("How much rounds do you wish to play?");
 			int numOfRounds = s.nextInt();
@@ -61,6 +62,7 @@ public class Juego_colgado {
 				s.nextLine();
 			}
 				
+			
 		//I make an integer called "initialise", this integer is for acting as a round
 		//If "initialise" is lower than the number of rounds, then the game will be begin.
 		for (int initialise = 0; initialise < numOfRounds; initialise++) 
