@@ -41,7 +41,23 @@ public class Juego_colgado {
 			//We create an integer array which will serve as our player lives
 			int[] playerLives = new int[numOfPlayers];
 			
-		
+			//This is for determining how many rounds will be played
+			System.out.println("How much rounds do you wish to play?");
+				int numOfRounds = s.nextInt();
+				s.nextLine();
+				
+				//I put a limit on 20 as that's too far
+				while (numOfRounds > 20) 
+				{
+					if(numOfRounds <= 19) 
+					{
+						break;
+					}	
+					System.out.println("20 rounds of hanged man sounds insane, don't you think?");
+					System.out.println("How much rounds do you wish to play?");
+					numOfRounds = s.nextInt();
+					s.nextLine();
+				}
 
 	}
 
