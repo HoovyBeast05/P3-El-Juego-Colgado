@@ -199,6 +199,7 @@ public class Juego_colgado {
 			if(checker == true) 
 			{
 				System.out.println("You have found the word!!");
+				System.out.println("( ◡̀_◡́)ᕤ");
 			}
 				
 			//if else, then you haven't and you have died
