@@ -155,6 +155,7 @@ public class Juego_colgado {
 					//When the covered word and the secret word are equal, the for loop breaks and checker is set to true
 					if(Arrays.equals(letterOfWord, coveredWord)) 
 					{
+						System.out.println("Player" + (j+1) + " has found the word!");
 						checker = true;
 						break;
 					}
@@ -198,7 +199,7 @@ public class Juego_colgado {
 			//if checker is set to true, you have found the word and won the game
 			if(checker == true) 
 			{
-				System.out.println("You have found the word!!");
+				System.out.println("\nYou have found the word!!");
 				System.out.println("( ◡̀_◡́)ᕤ");
 			}
 				
