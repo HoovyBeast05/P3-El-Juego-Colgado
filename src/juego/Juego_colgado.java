@@ -200,7 +200,7 @@ public class Juego_colgado {
 			if(checker == true) 
 			{
 				System.out.println("\nYou have found the word!!");
-				System.out.println("( ◡̀_◡́)ᕤ");
+				System.out.println("( ◡̀_◡́)ᕤ\n");
 			}
 				
 			//if else, then you haven't and you have died
@@ -217,6 +217,6 @@ public class Juego_colgado {
 				System.out.println("       |_|    ");
 			}
 		}
-		System.out.println("\n\nYou have ran out of rounds. Goodbye");
+		System.out.println("\nYou have ran out of rounds. Goodbye");
 	}
 }
